@@ -6,6 +6,11 @@ const routes = [
     name: "Login",
     component: () => import("@/components/Login"), // 로그인
   },
+  {
+    path: "/join",
+    name: "Join",
+    component: () => import("@/components/Join"), // 회원가입
+  },
 ];
 
 const router = createRouter({
