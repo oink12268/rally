@@ -15,4 +15,4 @@ app.use(VMdPreview);
 
 app.mount("#app");
 
-app.config.globalProperties.axios=axios   // axios 전역사용
+app.config.globalProperties.axios = axios; // axios 전역사용
