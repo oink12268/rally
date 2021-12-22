@@ -83,6 +83,8 @@
   </div>
 </template>
 <script>
+import axios from "axios";
+
 export default {
   name: "Login",
   data() {
@@ -103,6 +105,9 @@ export default {
       // }
 
       console.log("hii");
+      axios.get("/api/list").then((res) => {
+        console.log("KSH::", res.data);
+      });
       // this.axios
       //   .get("/api/list")
       //   .then((result) => {

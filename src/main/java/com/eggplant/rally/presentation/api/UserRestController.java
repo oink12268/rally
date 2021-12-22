@@ -5,8 +5,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 
-@CrossOrigin(origins = "http://localhost:8080")
+//@CrossOrigin(origins = "http://localhost:8080")
 @RestController
+@RequestMapping("/api/admin")
 @RequiredArgsConstructor
 @ResponseBody
 public class UserRestController {
